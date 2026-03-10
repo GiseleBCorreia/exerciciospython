@@ -1,0 +1,5 @@
+nome=str(input('Digite seu nome:')).strip()
+if nome.upper() == 'GISELE':
+    print('Que nome bonito!')
+else:
+    print('Não gostei do seu nome.')
