@@ -1,0 +1,2 @@
+from playsound3 import playsound
+playsound(r"C:\Users\Bem Vindo\Music\One Direction - What Makes You Beautiful  Audio .mp3")
