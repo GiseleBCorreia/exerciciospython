@@ -1,0 +1,4 @@
+nome=input('Digite seu nome completo:').strip()
+separa=nome.split()
+print(f'seu primeiro nome é {separa[0]}')
+print(f'Seu último nome é {separa[len(separa)-1]}')
