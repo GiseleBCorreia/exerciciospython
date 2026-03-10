@@ -1,0 +1,6 @@
+vel=float(input('Qual velocidade captada do carro em km/h?'))
+multa=(vel-80)*7
+if vel <= 80:
+    print('Você estava dentro do limite de velocidade.')
+else:
+    print(f'Você foi multado no valor de {multa} reais.')
