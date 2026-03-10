@@ -1,0 +1,7 @@
+dist=float(input('digite a distância em KM da sua viagem:'))
+if dist <= 200:
+    valor=(0.50*dist)
+    print(f'O preço da passagem será de {valor} reais.')
+else:
+    valor=(0.45*dist)
+    print(f'O número dapassagem será de {valor} reais')
