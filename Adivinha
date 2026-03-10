@@ -1,0 +1,8 @@
+import random
+n1=int(input('Você precisa adivinhar em qual número estou pensando... Vamos lá! Escolha um número de 1 a 5.'))
+n2 = [1, 2, 3, 4, 5]
+numero = random.choice(n2)
+if n1==numero:
+    print(f'Parabéns! Você acertou! O número escolhido por mim foi:{numero}')
+else:
+    print(f'Que pena! Você errou. O número escolhido por mim foi: {numero}')
